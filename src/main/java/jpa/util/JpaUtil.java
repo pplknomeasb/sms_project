@@ -1,10 +1,10 @@
-package com.perscholas.util;
+package jpa.util;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 public class JpaUtil {
-    private static final String PERSISTENCE_UNIT_NAME = "sms";
+    private static final String PERSISTENCE_UNIT_NAME = "sms_project";
     private static EntityManagerFactory factory;
 
     public static EntityManagerFactory getEntityManagerFactory() {
